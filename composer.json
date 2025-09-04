@@ -1,0 +1,17 @@
+{
+  "name": "joshlogic/hotswap",
+  "description": "A modular Laravel package that enables hot-swapping of apps, routes, and frontends. Hotswap lets you build isolated Laravel + Inertia + React modules (such as ecommerce, blog, etc.) inside a single project and load them dynamically without heavy configuration.",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "JoshLogic\\Hotswap\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "JoshLogic\\Hotswap\\HotswapServiceProvider"
+      ]
+    }
+  }
+}
